@@ -1,0 +1,144 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  background-color: black;
+  top: 0;
+  padding-top: 10px;
+}
+
+nav {
+  /*margin-right: 20px;*/
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: seashell;
+}
+
+nav span {
+  text-decoration: underline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#logo {
+  margin-left: 10px;
+}
+
+#logo img {
+  height: 50px;
+}
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("images/img-mission-background.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#missionStatement {
+  background-color: black;
+  width: inherit;
+  text-align: center;
+}
+
+.teaOfTheMonth {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#row1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#row2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teaOfTheMonth img {
+  height: 200px;
+  width: 300px;
+}
+
+.locations {
+  height: 600px;
+  width: 1200px;
+  background-image: url("images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.location {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.loc {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer {
+  width: 100%;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
